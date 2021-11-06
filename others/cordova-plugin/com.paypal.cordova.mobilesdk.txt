@@ -1,0 +1,120 @@
+THIS CODE CAN NOT RUN IN BROWSER
+1. Enqueue Scripts `paypal-mobile-js-helper.js`
+<script src="data/js/paypal-mobile-js-helper.js"></script>
+
+2. Paste this code Custom JS and change settings
+
+// required: cordova plugin add com.paypal.cordova.mobilesdk
+// https://developer.paypal.com/developer/applications/
+
+.directive("buyWithPaypal", function(PaypalService){
+	return {
+			controller: function($scope, $element, $attrs){
+			$element.bind("click", runApp);
+			function runApp(event)
+			{
+                PaypalService.initPaymentUI().then(function () {
+                  	var price = $attrs.price || 30;
+                  	var product = $attrs.product || "IMA Builder";
+                    PaypalService.makePayment(price, product);
+                });
+			};
+		}
+	};
+})
+
+ 
+.factory('PaypalService', ['$q', '$ionicPlatform', '$filter', '$timeout', function($q, $ionicPlatform, $filter, $timeout)
+{
+	var shopSettings = {  
+	   payPalSandboxId : 'AbcI0KDO9jz0wz5Dg7-So5pyH2CtMkbHBJLW1LAvvGG0GuBAEubYJH7Ip2UJeZiqUpZaHz30WiF0BzUr',
+	   payPalProductionId : 'AbcI0KDO9jz0wz5Dg7-So5pyH2CtMkbHBJLW1LAvvGG0GuBAEubYJH7Ip2UJeZiqUpZaHz30WiF0BzUr',
+	   payPalEnv: 'PayPalEnvironmentProduction',   // for testing  production for production
+	   payPalShopName : 'MyShopName',
+	   payPalMerchantPrivacyPolicyURL : 'url to policy',
+	   payPalMerchantUserAgreementURL : ' url to user agreement ' 
+	}
+	
+	var init_defer;
+	var service =
+	{
+		initPaymentUI: initPaymentUI,
+		createPayment: createPayment,
+		configuration: configuration,
+		onPayPalMobileInit: onPayPalMobileInit,
+		makePayment: makePayment
+	};
+
+	function initPaymentUI()
+	{
+		init_defer = $q.defer();
+		$ionicPlatform.ready().then(function()
+		{
+			var clientIDs =
+			{
+				"PayPalEnvironmentProduction": shopSettings.payPalProductionId,
+				"PayPalEnvironmentSandbox": shopSettings.payPalSandboxId
+			};
+			PayPalMobile.init(clientIDs, onPayPalMobileInit);
+		});
+		return init_defer.promise;
+	}
+	function createPayment(total, name)
+	{
+		var payment = new PayPalPayment("" + total, "USD", "" + name, "Sale");
+		return payment;
+	}
+	function configuration()
+	{
+		var config = new PayPalConfiguration(
+		{
+			merchantName: shopSettings.payPalShopName,
+			merchantPrivacyPolicyURL: shopSettings.payPalMerchantPrivacyPolicyURL,
+			merchantUserAgreementURL: shopSettings.payPalMerchantUserAgreementURL
+		});
+		return config;
+	}
+	function onPayPalMobileInit()
+	{
+		$ionicPlatform.ready().then(function()
+		{
+			PayPalMobile.prepareToRender(shopSettings.payPalEnv, configuration(), function()
+			{
+				$timeout(function()
+				{
+					init_defer.resolve();
+				});
+			});
+		});
+	}
+	function makePayment(total, name)
+	{
+		var defer = $q.defer();
+		total = $filter('number')(total, 2);
+		$ionicPlatform.ready().then(function()
+		{
+			PayPalMobile.renderSinglePaymentUI(createPayment(total, name), function(result)
+			{
+				$timeout(function()
+				{
+					defer.resolve(result);
+				});
+			}, function(error)
+			{
+				$timeout(function()
+				{
+					defer.reject(error);
+				});
+			});
+		});
+		return defer.promise;
+	}
+	return service;}
+])
+
+3. Insert HTML like this
+    
+	<button class="item item-button button button-calm" buy-with-paypal price="30.00" product="IMA Builder Pro">$30 Order Now</button>
+    <button class="item item-button button button-calm" buy-with-paypal price="15.00" product="IMA Builder Home">$15 Order Now</button>
+    <button class="item item-button button button-calm" buy-with-paypal price="1000000.00" product="IMA Builder Ultimate">$1000000 Order Now</button>
+	

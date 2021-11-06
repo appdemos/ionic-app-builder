@@ -1,0 +1,74 @@
+* Go to Extra Menus -» (IMAB) Custom Cordova Plugin, add "cordova-plugin-document-viewer" plugin and "cordova-plugin-file" plugin
+* Go to (IMAB) Pages, add function on controller:
+<pre>
+$rootScope.openPDF = function(url,assets) {
+
+	if(assets===true){
+		url = cordova.file.applicationDirectory + url;
+	}
+	
+		
+	var mimeType = "application/pdf";
+	var options = {
+		title: "IMAB PDF Reader",
+		documentView: {
+			closeLabel: "Close"
+		},
+		navigationView: {
+			closeLabel: "Close"
+		},
+		email: {
+			enabled: false
+		},
+		print: {
+			enabled: true
+		},
+		openWith: {
+			enabled: false
+		},
+		bookmarks: {
+			enabled: true
+		},
+		search: {
+			enabled: true
+		},
+		autoClose: {
+			onPause: true
+		}
+	}
+	cordova.plugins.SitewaertsDocumentViewer.viewDocument(url, mimeType, options, onShow, onClose, onMissingApp, onError, linkHandlers);
+
+	function onShow() {
+		window.console.log('document shown');
+	}
+
+	function onClose() {
+		window.console.log('document closed');
+	}
+
+	function onMissingApp(appId, installer) {
+		if (confirm("Do you want to install the free PDF Viewer App " + appId + " for Android?")) {
+			installer();
+		}
+	}
+
+	function onError(error) {
+		window.console.log(error);
+      	$scope.error_log = error ;
+		alert(error.message);
+	}
+	var linkHandlers = [{
+		pattern: '^/',
+		close: false,
+		handler: function(link) {
+			window.console.log('link clicked: ' + link);
+		}
+	}];
+}
+</pre>
+
+and HTML Code:
+<pre>
+    <button ng-click="openPDF('file:///sdcard/test.pdf',false);">test.pdf</button>
+     <button ng-click="openPDF('www/test.pdf',true);">assets test.pdf</button>
+</pre>

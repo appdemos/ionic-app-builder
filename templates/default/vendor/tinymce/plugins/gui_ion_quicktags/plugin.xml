@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Ionic Quicktags</name>
+	<version>1.16.03.28</version>
+	<license>Free</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Ionic Quicktags is a TinyMCE plugin that allow create and edit Ionic framework component</description>
+	<tags>plugin, tinymce, list, item, Ionic</tags>
+	<preferences>
+		<preference name="id" value="gui_ion_quicktags"></preference>
+		<preference name="framework" value="ionic"></preference>
+		<preference name="path" value="add-ons/gui_ion_quicktags/plugin.min.js"></preference>
+		<preference name="button" value="gui_ion_list gui_ion_item"></preference>
+        <preference name="menu" value="gui_ion_list gui_ion_item"></preference>
+        <preference name="gui_ion_quicktags" value="{toolbar_text:true,css:{exist:true,external:gui_Ionic_url}}"></preference>
+	</preferences>
+</widget>

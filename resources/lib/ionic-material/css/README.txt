@@ -1,0 +1,1 @@
+create filename "ionic.material.min.css" for overwrite default css

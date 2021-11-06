@@ -1,0 +1,140 @@
+{
+    "tables": {
+        "wp-restapi_posts": {
+            "required": "<h4>Required<\/h4><blockquote class=\"blockquote blockquote-danger\">Plugin required for your WordPress<br\/><a class=\"btn btn-xs btn-danger\" target=\"_blank\" href=\"https:\/\/wordpress.org\/plugins\/rest-api\/\">REST-API 2<\/a> <a class=\"btn btn-xs btn-danger\" target=\"_blank\" href=\"https:\/\/wordpress.org\/plugins\/rest-api-helper\/\">REST-API Helper<\/a><\/blockquote>",
+            "parent": "posts",
+            "title": "post",
+            "template": "thumbnail",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "http:\/\/demo.ihsana.net\/wordpress\/wp-json\/wp\/v2\/posts?categories=1&per_page=20",
+            "db_url_single": "http:\/\/demo.ihsana.net\/wordpress\/wp-json\/wp\/v2\/posts\/",
+            "db_url_dinamic": "on",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Title",
+                    "title": "title.rendered",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Featured",
+                    "title": "x_featured_media",
+                    "type": "images",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<span class=\"icon ion-android-calendar\"> [txt]<\/span>",
+                    "title": "x_date",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<span class=\"icon ion-android-contact\"> [txt]<\/span>",
+                    "title": "x_author",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Featured Original",
+                    "title": "x_featured_media_original",
+                    "type": "images",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Excerpt",
+                    "title": "excerpt.rendered",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "content.rendered",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<span class=\"icon ion-ios-pricetags\"> [txt]<\/span>",
+                    "title": "x_tags",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<span class=\"icon ion-bookmark\"> [txt]<\/span>",
+                    "title": "x_categories",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Share Link",
+                    "title": "link",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Link",
+                    "title": "link",
+                    "type": "link",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "languages": {
+                "retrieval_error_title": "No Network connection",
+                "retrieval_error_content": "Internet connection is required to access the application. Please enable mobile network or Wifi in Settings",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "oauth": {
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "post"
+        }
+    }
+}

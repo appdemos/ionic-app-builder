@@ -1,0 +1,6 @@
+{
+    "name": "$ionicConfig.backButton",
+    "code": "$ionicConfig.backButton.text('').icon('ion-arrow-left-c');"
+}
+
+

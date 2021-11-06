@@ -1,0 +1,11 @@
+              <!-- slidebox -->
+              <div class="item item-text-wrap noborder to_trusted">
+                <div class="slideshow_container to_trusted" ng-if="jobs.x_metadata._listing_gallery_images" >
+                  <ion-slides options="{slidesPerView:1}" slider="data.slider" class="slideshow">
+                    <ion-slide-page class="slideshow-item" ng-repeat="slide_item in jobs.x_metadata._listing_gallery_images" >
+                      <img src="{{ slide_item }}" class="fullscreen"/>
+                    </ion-slide-page>
+                  </ion-slides>
+                </div>
+              </div>
+              <!-- ./slidebox -->

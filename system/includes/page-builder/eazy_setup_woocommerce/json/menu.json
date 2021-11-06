@@ -1,0 +1,43 @@
+{
+    "menu": {
+        "type": "tabs",
+        "menu_style": "tabs-striped",
+        "menu_position": "bottom",
+        "header_background": "royal",
+        "menu_background": "assertive",
+        "menu_color": "stable",
+        "header_image_background": "",
+        "expanded_header": "data\/images\/header\/header0.jpg",
+        "logo": "data\/images\/header\/logo.png",
+        "items": [
+            {
+                "label": "Categories",
+                "var": "categories",
+                "icon": "ion-clipboard",
+                "icon-alt": "ion-clipboard",
+                "type": "link",
+                "option": "",
+                "desc": "List of categories"
+            },
+            {
+                "label": "Products",
+                "var": "products",
+                "icon": "ion-android-favorite",
+                "icon-alt": "ion-android-favorite",
+                "type": "link",
+                "option": "",
+                "desc": "Our Products"
+            },
+            {
+                "label": "Shopping Cart",
+                "var": "product_cart",
+                "icon": "ion-android-cart",
+                "icon-alt": "",
+                "type": "link",
+                "option": "",
+                "desc": ""
+            }
+        ],
+        "title": "Woo Builder"
+    }
+}

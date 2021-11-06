@@ -1,0 +1,20 @@
+{
+    "page": [
+        {
+            "cache": "false",
+            "title": "Shopping Cart",
+            "prefix": "product_cart",
+            "for": "table-bookmarks",
+            "last_edit_by": "table (product)",
+            "parent": "products",
+            "content": "\r\n<!-- shopping cart -->\r\n\t<div ng-if=\"product_cart.length != 0\">\r\n\t\t<!-- items -->\r\n\t\t<div class=\"list\" ng-init=\"product_order={}\" >\r\n\t\t\t<div class=\"card\" ng-repeat=\"item in product_cart\" ng-init=\"product_order[$index]=item\">\r\n\t\t\t\t<div class=\"item item-thumbnail-left item-button-right noborder\">\r\n\t\t\t\t\t<img ng-src=\"{{ item.featured.thumbnail }}\" \/>\r\n\t\t\t\t\t<h2 class=\"\" ng-bind-html=\"item.name | to_trusted\"><\/h2>\r\n\t\t\t\t\t<span>{{ item._sum | currency:\"$\":2 }}<\/span>\r\n\t\t\t\t\t<input type=\"number\" min=\"1\" ng-change=\"updateDbVirtual()\" ng-model=\"product_order[$index]['_qty']\" \/>\r\n\t\t\t\t\t<button class=\"button button-small button-assertive button-outline\" ng-click=\"removeDbVirtual(item.id)\"><i class=\"icon ion-trash-a\"><\/i><\/button>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t\t<!-- .\/items -->\r\n\r\n\t\t<!-- totals -->\r\n\t\t<div class=\"list\">\r\n\t\t\t<div class=\"item text-right\">\r\n\t\t\t\t<h2>{{ product_cost | currency:\"$\":2 }}<\/h2>\r\n\t\t\t\t<p>Go to Checkout to Pay<\/p>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t\t<!-- .\/totals -->\r\n\r\n\t\t<!-- buttons -->\r\n\t\t<div class=\"list\">\r\n\t\t\t<div class=\"item tabs tabs-secondary tabs-icon-top tabs-stable\">\r\n\t\t\t\t<a class=\"tab-item\" ng-click=\"clearDbVirtual();\"><i class=\"icon ion-trash-a\"><\/i> Clear<\/a>\r\n\t\t\t\t<a class=\"tab-item\" ng-click=\"gotoCheckout()\"><i class=\"icon ion-cash\"><\/i> Checkout<\/a>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t\t<!-- .\/buttons -->\r\n\t<\/div>\r\n<!-- .\/shopping cart -->\r\n\r\n\r\n<!-- no items -->\r\n\t<div class=\"product_cart padding text-center\" ng-if=\"product_cart.length == 0\">\r\n\t\t<i class=\"icon ion-ios-cart-outline\"><\/i>\r\n\t\t<p>There are no items in your cart<\/p>\r\n\t<\/div>\r\n<!-- .\/no items -->\r\n",
+            "priority": "low",
+            "menu": "false",
+            "menutype": "tabs-custom",
+            "button_up": "none",
+            "variables": "",
+            "css": ".product_cart{margin-top: 50%;}\r\n.product_cart .icon:before{font-size: 72px;font-weight: 600;}\r\n",
+            "js": "\t$scope.gotoCheckout = function(){\r\n\t\talert(\"you must create payment gateway manual\");\r\n\t}\r\n"
+        }
+    ]
+}

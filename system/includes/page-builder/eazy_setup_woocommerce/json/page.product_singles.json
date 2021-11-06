@@ -1,0 +1,73 @@
+{
+    "page": [
+        {
+            "js": "$ionicConfig.backButton.text(\"\");",
+            "img_bg": "",
+            "img_hero": "data\/images\/background\/bg0.jpg",
+            "cache": "false",
+            "title": "{{ product.name }}",
+            "prefix": "product_singles",
+            "for": "table-item",
+            "last_edit_by": "table (product)",
+            "parent": "products",
+            "content": "",
+            "priority": "low",
+            "menu": "false",
+            "menutype": "sub-tabs",
+            "query": [
+                "id"
+            ],
+            "button_up": "none",
+            "variables": [
+                {
+                    "value": "<p>{{product.id}}<\/p>",
+                    "label": "id"
+                },
+                {
+                    "value": "<p>{{product.featured.thumbnail}}<\/p>",
+                    "label": "featured.thumbnail"
+                },
+                {
+                    "value": "<p>{{product.featured.large}}<\/p>",
+                    "label": "featured.large"
+                },
+                {
+                    "value": "<p>{{product.name}}<\/p>",
+                    "label": "name"
+                },
+                {
+                    "value": "<p>{{product.image_slidebox}}<\/p>",
+                    "label": "image_slidebox"
+                },
+                {
+                    "value": "<p>{{product.description}}<\/p>",
+                    "label": "description"
+                },
+                {
+                    "value": "<p>{{product.short_description}}<\/p>",
+                    "label": "short_description"
+                },
+                {
+                    "value": "<p>{{product.price_html}}<\/p>",
+                    "label": "price_html"
+                },
+                {
+                    "value": "<p>{{product.price}}<\/p>",
+                    "label": "price"
+                },
+                {
+                    "value": "<p>{{product.average_rating}}<\/p>",
+                    "label": "average_rating"
+                },
+                {
+                    "value": "<p>{{product.permalink}}<\/p>",
+                    "label": "permalink"
+                },
+                {
+                    "value": "<p>{{product.permalink}}<\/p>",
+                    "label": "permalink"
+                }
+            ]
+        }
+    ]
+}

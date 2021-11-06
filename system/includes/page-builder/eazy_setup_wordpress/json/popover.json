@@ -1,0 +1,23 @@
+{
+    "popover": {
+        "icon": "ion-android-more-vertical",
+        "title": "Help",
+        "menu": [
+            {
+                "title": "Admin",
+                "link": "http:\/\/wp.org\/wp-admin",
+                "type": "link-webview"
+            },
+            {
+                "title": "About Us",
+                "link": "#\/my_wp\/about",
+                "type": "link"
+            },
+            {
+                "title": "Bookmark of POST",
+                "link": "#\/my_wp\/post_bookmark",
+                "type": "link"
+            }
+        ]
+    }
+}

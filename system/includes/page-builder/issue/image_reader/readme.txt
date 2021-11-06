@@ -1,0 +1,1 @@
+Easy for creating image reader, example for app manga

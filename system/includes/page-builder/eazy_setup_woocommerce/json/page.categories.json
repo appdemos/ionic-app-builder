@@ -1,0 +1,48 @@
+{
+    "page": [
+        {
+            "title": "Categories",
+            "prefix": "categories",
+            "parent": "tabs",
+            "menutype": "tabs",
+            "lock": false,
+            "menu": "",
+            "for": "table-list",
+            "priority": "low",
+            "last_edit_by": "table (categorie)",
+            "content": "",
+            "class": "",
+            "attr": "",
+            "button_up": "none",
+            "img_bg": null,
+            "query": null,
+            "query_value": "",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.name}}<\/li><\/ul>",
+                    "label": "name"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.count}}<\/li><\/ul>",
+                    "label": "count"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.description}}<\/li><\/ul>",
+                    "label": "description"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.image.src}}<\/li><\/ul>",
+                    "label": "image.src"
+                }
+            ],
+            "img_hero": null,
+            "js": "\/\/debug: all data\r\n\/\/console.log(data_categories);\r\n$ionicConfig.backButton.text(\"\");\r\n",
+            "db_url_dinamic": false
+        }
+    ]
+}

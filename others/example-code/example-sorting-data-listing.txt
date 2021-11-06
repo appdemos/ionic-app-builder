@@ -1,0 +1,68 @@
+			<ion-refresher pulling-text="Pull to refresh..."  on-refresh="doRefresh()"></ion-refresher>
+			<ion-list class="card list">
+              
+				<div class="item item-input">
+					<i class="icon ion-search placeholder-icon"></i>
+					<input type="search" ng-model="q" placeholder="Search" aria-label="filter two_icons" />
+              </div>
+              
+                <div class="item item-input item-toggle">
+                  	   <span class="input-label">Reserve</span>
+                      <label class="toggle toggle-assertive">
+                          <input ng-click="form_sort()" ng-model="form_sort.reserve" name="reserve" type="checkbox">
+                          <div class="track"><div class="handle"></div></div>
+                      </label>
+              	</div>
+              
+                  <div class="item item-input item-select">
+                      <span class="input-label">Sort By</span>
+                      <select ng-click="form_sort()" ng-model="form_sort.sort_by" name="sort_by"  >
+                          <option value="title">title</option>
+                          <option value="icon">icon</option>
+                      </select>
+                  </div>
+              
+
+ 
+			</ion-list>
+
+			<div class="card list light-bg animate-fade-slide-in-right">
+				<a class="item item-icon-left ink-colorful item-icon-right "  ng-repeat="item in two_icons | filter:q as results" ng-init="$last ? fireEvent() : null" ng-href="#/test_templates/two_icon_singles/{{item.id}}" >
+					<i class="icon  colorful {{item.icon}}"></i>
+					<span ng-bind-html="item.title | to_trusted"></span>
+						<p >
+						text{{item.text}}
+						</p>
+					<i class="icon ion-arrow-right-c"></i>
+				</a>
+			</div>
+
+			<ion-list ng-if="results.length == 0" class="list card">
+				<div class="item"  >
+					<p>No results found...!</p>
+				</div>
+			</ion-list>
+			<ion-infinite-scroll ng-if="!noMoreItemsAvailable" on-infinite="onInfinite()" distance="5px" ng-if="hasMoreData"></ion-infinite-scroll>
+
+
+
+
+var sorting_by = function(field, reverse, primer){
+   var key = primer ? 
+       function(x) {return primer(x[field])} : 
+       function(x) {return x[field]};
+   reverse = !reverse ? 1 : -1;
+   return function (a, b) {
+       return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+     } 
+}
+ 
+var sort_by_default = 'title'; 
+$scope.form_sort = function(){
+    var reverse = $scope.form_sort.reserve;
+    var sort_by = $scope.form_sort.sort_by;
+    if(typeof sort_by == "undefined"){
+        sort_by=sort_by_default;
+    }
+    $scope.two_icons.sort(sorting_by(sort_by, reverse, function(a){return a.toUpperCase()}));
+}

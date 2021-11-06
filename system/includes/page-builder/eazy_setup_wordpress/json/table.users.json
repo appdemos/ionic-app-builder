@@ -1,0 +1,100 @@
+{
+    "tables": {
+        "user": {
+            "parent": "users",
+            "title": "user",
+            "template": "none",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_var_single": "",
+            "db_url": "",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "id",
+                    "title": "id",
+                    "type": "id",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "url",
+                    "title": "url",
+                    "type": "appbrowser",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "description",
+                    "title": "description",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "avatar_urls",
+                    "title": "avatar_urls[96]",
+                    "type": "images",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "motions": "none",
+            "bookmarks": "none",
+            "column-for-price": "none",
+            "currency-symbol": "$",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Filter",
+                "error_messages": "false"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                },
+                "youtube": {
+                    "api_key": ""
+                }
+            },
+            "auth": {
+                "type": "x-basic",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "user"
+        }
+    }
+}

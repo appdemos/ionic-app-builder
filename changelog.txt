@@ -1,0 +1,525 @@
+18.12.10
+- Improved: (IMAB) Config.XML 
+
+
+18.12.03
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Quote
+- Improved: (IMAB) Menus 
+- Improved: (IMAB) Pages
+- Improved: Extra Tool -> WordPress Plugin Generator
+
+
+18.10.23
+- Improved: Extra Menus -» (IMAB) Cordova Plugin - Admob Free
+- Improved: (IMAB) Dashboard -> How to Build?
+
+18.10.11
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page WordPress
+
+18.10.02
+- Improved: Extra Menus -» (IMAB) Cordova Plugin - Admob Free
+- Improved: Extra Menus -» (IMAB) Cordova Plugin - Admob Pro
+
+18.10.01
+- Improved: Extra Menus -» (IMAB) Cordova Plugin - Admob Free
+- Improved: Extra Menus -» (IMAB) Cordova Plugin - Admob Pro
+- Improved: (IMAB) Page -» Admob Option
+- Improved: Admob Event
+
+18.09.25
+- Improved: Extra Menus -> (IMAB) Page Builder -> Full Webview
+
+18.09.24
+- Fixed: (IMAB) REST-API Generator (Form Code)
+
+18.09.15
+- Improved: config.xml, Android minSdk (setting in index.php)
+- Fixed: Error while parsing this package
+
+18.09.08
+- Improved: config.xml, Android minSdk (setting in index.php)
+- Fixed: Error while parsing this package
+
+18.09.07
+- Improved: config.xml, Android minSdk Version 16
+- Improved: (IMAB) Dashboard
+- Improved: (IMAB) REST-API Generator (PHP + SQL)
+- Improved: (IMAB) FAQs
+- Improved: (IMAB) PWA
+
+18.08.16
+- Improved: (IMAB) REST-API Generator (PHP + SQL)
+- Improved: Extra Menu -> (IMAB) Form -> Radio
+- Improved: Directive Code
+- Improved: (IMAB) Tables
+
+18.07.25
+- Improved: Extra Menus -> (IMAB) Page Builder -> Eazy Setup Ecommerce
+- Improved: (IMAB) Menus
+
+18.07.16
+- Improved: Extra Menus -> (IMAB) Cordova Plugin - Admob Free
+- Improved: (IMAB) Menus
+- New features: (IMAB) Cordova Plugin Others -> Social X Sharing
+
+
+18.07.02
+- Improved: Extra Menus -> (IMAB) Page Builder -> Eazy Setup Woocommerce
+- Improved: (IMAB) Cordova Plugin Others -> Barcode Scanner
+- Improved: (IMAB) Pages
+
+18.06.04
+- Improved: (IMAB) Table
+- Improved: (IMAB) Pages
+- Improved: (IMAB) Menus
+
+18.05.28
+- Improved: (IMAB) Page Builder
+- Improved: Extra Menus -> (IMAB) Page Builder -> Quiz
+
+18.05.21
+- Improved: (IMAB) Custom Config XML - Statusbar
+- Improved: (IMAB) Tables - type number, float, date, datetime, date php format, datetime php format, datetime string, email, sms, dial, geo
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Wordpress Restapi Enabler
+- Improved: Webview, AppBrowser and Open URL
+
+18.05.07
+- New features: Extra Menus -> (IMAB) Page Builder -> Recently Used Tab
+- New features: Extra Menus -> (IMAB) Page Builder -> Page Wp Very Simple Event List
+- New features: Extra Menus -> (IMAB) Cordova Plugin Others -> Barcode Scanner, GEO Location, Clipboard
+- Improved: (IMAB) Pages -> Title Logo
+- Improved: (IMAB) Table -> Authorization
+- Improved: (IMAB) Table -> Virtual Table -> Cart
+- Improved: Webview, AppBrowser and Open URL
+
+18.04.23
+- Improved: Backend Tools -> (IMAB) Web Admin Generator (PHP + SQL)
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Radio Player
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Audio Player
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Image Slider
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Menu Sliding
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Menu Box
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Gmap
+- Improved: (IMAB) Pages -> Advanced Custom -> ngController and CSS
+- Improved: Code Editor (codemirror) can be changed theme
+- New features: Extra Menus -> (IMAB) Page Builder -> Eazy Setup Backend for Admob
+- New features: Extra Menus -> (IMAB) Page Builder -> Page CoinMarketCap API
+- New features: Extra Menus -> (IMAB) Page Builder -> Page Tab Sliding
+- New features: Helper Tools -> (IMAB) JSON Viewer
+ 
+
+18.04.16
+- Improved: (IMAB) Resources
+- Improved: (IMAB) Pages, now support additional dependencies
+- Improved: Config for new Cordova/Ionic
+- Improved: (IMAB) Tables, Template Listing Doughnut, Bar and Line Chart
+
+18.04.09
+- Improved: Config for new Phonegap CLI
+- Add: PWA - Add to Homescreen Support
+- Improved: (IMAB) Pages
+- Improved: (IMAB) Popover, now support custom code
+- Improved: Extra Menus -> (IMAB) Cordova Plugin Admob Free
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page RSS
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Blogger
+- Improved: Extra Menus -> (IMAB) Page Builder -> Eazy Setup Ecommerce
+- Improved: Extra Menus -> (IMAB) Page Builder -> Data User For Offline App
+
+
+18.04.02
+- Improved: Helper Tools -> (IMAB) Recovery and Issue
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page WordPress
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page WordPress RESTAPI Enables
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Quote
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page GMAP
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Blogger
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page RSS
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Youtube
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Online Radio
+
+18.03.28
+- Improved: Extra Menus -> (IMAB) Page Builder -> Full Webview
+- Improved: Dashboard -> How to Build
+
+
+18.03.20
+- Improved: Webview (hidden link on Webpage not available content)
+- Improved: Extra Menus -> (IMAB) Page Builder -> Blogger
+- Improved: Extra Menus -> (IMAB) Page Builder -> Full Webview
+- Improved: Extra Menus -> (IMAB) Page Builder -> Page Menu Box
+- New features: Extra Menus -> (IMAB) Page Builder -> Eazy Setup Ecommerce
+- New features: Extra Menus -> (IMAB) Page Builder -> Data User For Offline App
+ 
+18.03.01
+- Improved: Backend Tools -> (IMAB) WordPress Plugin Generator
+- Improved: Extra Menus -> (IMAB) Page Builder -> Membership
+
+18.02.27
+- Improved: (IMAB) Pages
+- New features: ElFinder Support
+- Improved: Form -> Input type support from table
+- Improved: (IMAB) Page Builder -> Full Webview
+
+18.02.13
+- Improved: (IMAB) Tables
+- Improved: (IMAB) Pages
+
+18.02.09
+- Fixed: Blank Page on MAMP
+- New features: Extra Menu -> (IMAB) Custom Config.XML
+- New features: Extra Menu -> (IMAB) Cordova Plugin Admob Free
+
+18.02.05
+- Fixed: Blank Page on MAMP
+- Improved: (IMAB) Web Admin Generator (PHP + SQL)
+
+18.01.22
+- Fixed: Encoding after installed
+- Fixed: A session is active
+
+18.01.01
+- New features: Add Russian language (by Veldelon)
+- Fixed: Issue encoding after installed
+- Improved: All features
+
+17.12.11
+- Improved: (IMAB) Multilingual 
+- Improved: (IMAB) Page Builder 
+- New features: Support Bahasa Indonesia
+
+17.12.04
+- Improved: (IMAB) Multilingual 
+- Improved: (IMAB) Page Builder 
+- Added: (IMAB) Popover -> FontSize Option
+- Added: (IMAB) Popover -> Language Option
+
+17.11.6
+- Added:  Helper Tools -> (IMAB) Finishing -> (IMAB) Debugger
+- Added: (IMAB) Multilingual (new features)
+- Improved: (IMAB) Page (add undo button)
+- Improved: Backend Tools -> (IMAB) WordPress Plugin Generator
+
+17.10.16
+- Improved: Social Share
+- Improved: Push Notifications
+
+17.10.9
+- Improved: (IMAB) Custom Fonts
+- Improved: (IMAB) Custom CSS Generator
+- Improved: (IMAB) Page Builder -> WordPresss Eazy Setup
+- Improved: (IMAB) Popover
+- Improved: (IMAB) Web Admin Generator (PHP + SQL)
+
+17.9.18
+- Improved: (IMAB) Menu, (IMAB) Popover add menu type App Exit
+- Improved: (IMAB) Page
+- Improved: (IMAB) Page Builder -> Page Wordpress and Restapi Enabler
+- Improved: (IMAB) Page Builder -> Page Audio Player
+- Added: (IMAB) Page Builder -> Page Blogger
+- Improved: Add oneSignal API to Backend Tools -> (IMAB) Web Admin Generator
+- Improved: (IMAB) Dashboard
+
+
+17.8.29
+- Improved: (IMAB) REST-API Generator (PHP + SQL)
+- New: Helper Tools -> (IMAB) Finishing
+
+
+17.8.12 (pre-release)
+- Improved: (IMAB) Dashboard Option (add splashscreen option)
+- Improved: (IMAB) Custom CSS Generator (add css code for font)
+
+17.8.9 (pre-release)
+- Improved: (IMAB) Page
+- Improved: (IMAB) Custom Cordova Plugin
+- Improved: (IMAB) Menu
+
+
+17.7.28
+- Improve Extra Menu -> Push Notification OneSignal (Additional Data var `page` for open specific pages)
+- Improve Extra Menu -> Page Builder -> WordPresss Eazy Setup
+- Add Extra Menu -> Page Builder -> Email Us With Php Mailer
+- New features -> Extra Menu -> Cordova Plugin
+- New features -> Backend Tools -> (IMAB) Others
+- Fix KCFinder issue with domain and port
+
+
+17.7.01
+- Fix docs in dashboard
+- Improve page-builder - eazy wordpress setup
+
+17.6.26 (release)
+- Fix page-builder - youtube (tab mode issue) (thank @ijorider)
+- Improve webview, appbrowser and page-builder -> fullwebview
+- Improve some docs in ima-builder
+
+17.6.19 (pre-release)
+- Fix bookmark issue
+- Change method login ima-builder
+
+17.6.12 (pre-release)
+- Improve some docs in ima-builder
+- Improve input validation dashboard
+- Improve page-builder - full webview, eazy wordpress setup
+- Fix issue upload validation page-builder - import new modules
+- Fix issue upload validation import project
+- Improve Web Admin Generator 
+- Improve REST-API Generator 
+
+17.6.05 (release)
+- Improve and fix security for live test REST-API Generator  
+- Improve and fix security for live test Web Admin Generator  
+- Improve and fix security for live test RSS to JSON Converter
+- Improve some docs in ima-builder
+
+17.6.01 (release)
+- Add file Live test for REST-API Generator, Web Admin Generator, RSS to JSON Converter
+- Add form type barcode scanner
+- fix issue max scripts in enqueue scripts menu (thank @Richard brack)
+- Add prefix `imab` every features
+
+
+17.05.16 (pre-release)
+- Add offline data support categorization 
+- Add Angular Locale
+- Add directive pdf reader
+- Improve code docs
+- Update ionicframework v1.3
+- Improve form and fix some issue (thank @abayuba rodriguez)
+- Improve Page Builder -> Page Boxed Menu
+- Improve Clone to Project in Dashboard
+- Improve Import Menu
+
+17.05.01 (release)
+- Add new features Helper Tools -> MySQL to JSON
+- Improve docs, form and table
+- Add page builder -> rss
+
+17.04.17 (pre-release)
+- Improve docs, form and table
+- Improve Page Builder -> Page GMAP
+- Improve Page Builder -> Page Youtube
+- Improve JSON Editor
+- Improve JSON Raw Editor (support JSON from PhpMyAdmin)
+
+17.04.10 (pre-release)
+- Fix docs in Dashboard and code docs
+- Add page builder -> page gmap
+- Add page builder -> page wordpress rest-api enabler (for custom post-type)
+- Fix PHP/SQL Rest-API Generator issues
+- Fix WordPress Plugin Generator issues
+
+17.04.03 (release)
+- Fix docs in Dashboard
+- Add FAQs items
+
+17.03.26 (pre-release)
+- Improved Cart, Social Sharing on Table
+- Add page builder -> page wordpress
+- Add page builder -> page youtube
+- Add page builder -> page faqs
+- Add page builder -> eazy setup membership
+- Add page builder -> eazy setup wordpress
+- Add page builder -> eazy setup woo
+
+17.03.01 (pre-release)
+- Add Option Shopping Cart on Table Menu
+- Improved Bookmark on Table Menu
+- Add variable $ionicActionSheet to controller
+- Fix blank page after activation
+- Improve RSS To JSON Converter
+- Improve OneSignal notification
+- Improve Localforage for Offline Storage 
+- Improve easy changing default app id (config in index.php)
+- Add option 1st Variable for Single Item in Table
+- Add column type password/username in Table
+- Add Auth support to PHP/SQL Rest-API Generator
+- Add Auth support to WEB Admin Generator
+
+
+17.02.01 (pre-release)
+- Improved Bookmark on Table Menu
+- Add FAQs template on Table Menu
+- Improve thumbnail for RSS To JSON Converter
+- Add OneSignal to push notification
+- Improved Docs in dashboard
+- Add menu FAQS
+
+17.01.01 (release)
+- Fix SMS Directive for IOS
+- Add date, datetime, and time in option type form
+- Add option bookmark
+- Add new docs in dashboard
+- Add Example WP JSON User in Page Builder
+- Add Example Radio App in Page Builder
+- Improve Smart Code Builder
+
+16.11.14 (release)
+- Fix issue form upload style Material Input
+- Add Menu Builder in Page Builder
+- Fix Page Index
+
+16.11.07 (pre-release)
+- Add option Go back in page
+- Add Option WordPress Plugin Generator
+- Add new template Smart Code Builder 
+
+16.11.01
+- Add custom meta tags
+- Add option localforaga/indexedDB 
+- Improve Smart Code Builder
+- Fix issue class String (Fatal Error pre-release issue)
+- Add Template Image Reader to Page Builder
+- Fix Header Shrink option in mode tab menu (blank page issue) 
+- Fix Go to Top option in mode tab menu.
+- Add input type file and hidden field in form builder
+- Add Smart Code builder in Page (Beta Test)
+- Fix and Add option Scroll, Overflow Scroll, Force Remove Has Header, Title Tranparant, Header Shrink and Hide Navbar in Page
+- Delete htaccess (issue for hosting not support URL Rewrite)
+- Add AnggularJS Dependency for insert plugin anggularJS to ionic
+- Fix permission issue in JSON Tool (Thank @Alfonso)
+- Add new query orderby in PHP REST-API Generator
+- Add searching form in Icon Dialog (Thank: @Theophile Marcellus)
+
+
+16.10.03 
+- Fix Issue Data Table in Web Admin Generator
+- Add Template Text Quote to Page Builder
+- Fix form upload image, file, audio in Web Admin Generator
+- Add auto detect kcfinder filebrowser in Web Admin Generator
+- Fix sensitive variable in Table (issue using wordpress.com as backend) 
+- Add new option type in menu: Webview, App Browser, External Browser, Email, SMS, Call, Playstore
+- Add new option type in popover: Webview, App Browser, External Browser, Email, SMS, Call, Playstore
+- Add Sample Code in Page Custom ngController
+- Add new feature updates (beta test).
+- Fix form upload image in Web Admin Generator
+- Add Template Quiz to Page Builder
+- Fix Issue Custom Controller in page editor
+- Fix backslash issue in page (thank @Jang Hyunwoo)
+- Add clone button to dashboard (Thank: @Theophile Marcellus)
+- Add Features Custom Menu
+- Fix menu (overwrite issue)
+- Add option dashboard (start page with)
+- Add more directive (check in code docs menu) 
+- Add custom router
+
+
+16.09.06 
+- New features Custom Fonts
+- New features Import Projects
+- New features Joomla Module
+- New features Enqueue Scripts
+- New features Ionicons Cheatsheet
+- Fix issue register single page (Thank @refly)
+- Add form option select (Thank @ali fis joe)
+- Add GMAP Listing template to table
+- Fix RTL Menu, Popover and Other
+- Fix Custom Controller in page
+- Add table template in table
+- Fix Backend RSS 2 JSON Convert (Thank: @Jens Campoy) 
+- Add colorful color 
+- Add OAut1.0a in table (For Woo, Create a user then generate woo api)
+- Fix filename in WordPress Plugin Generator (please uninstall old plugin in your wp and reinstall with new plugin)
+- Add TextDomain Localization support in WordPress Plugin Generator (You can create your own langguage using loco-translate plugin)
+- REST-API Helper move to WordPress Directory (Now Eazy update using Official wordpress.org)
+
+16.08.16
+- Add slidebox to Column Type (table)
+- Add homepage template (table)
+- Add table relation (table)
+- Fix PHP + MySQL RESTAPI Generator  
+- Fix WordPress Plugin Generator  
+- Add table relation (table)
+- Fix help doc in dashboard (Thank: @Theophile Marcellus)
+- Fix menu issue (Thank: @Theophile Marcellus)
+- Fix form issue (Thank: @Theophile Marcellus)
+
+16.08.01
+- Add new features Push Notifications
+- Add new features PHP Backend/Admin Builder
+- Add new features Page Builder
+- Merge crossdomain and JSON Format to URL Checker
+- Add option Menu Position (thank @Sieng Van)
+- Change Format Title to Trusted HTML (issue HTML Entity)
+- Fix Tables and add column source.
+- Replace name PHP + MySQL Generator with PHP + MySQL RESTAPI Generator
+- Fix Form Builder
+
+16.07.05
+- Add Avatar Template in Table
+- Fix arabic issue in PHP + MySQL Generator (thank @khaloooody)
+- Add RTL Option in Dashboard
+- New form features
+- Fix css issue
+- Add more size in Image Featured WP Plugin REST-API Helper
+
+16.06.13
+- Add variable to menu column for support @utf8 label (thank @Rungsan Suyala ).
+- Add Per args for WP Plugin Maker (thank @Macromind)
+- Add Per args for PHP + MySQL
+- Add example picture (Thank to http://lampungcyberz.co.id and dotNet Photograhy)
+- Fix youtube issue in PHP + MySQL Generator  (thank @sebaryco)
+- Fix youtube issue in WordPress Plugin Generator (thank @sebaryco)
+- Add trust url for video, audio, iframe
+- Fix popover in tabs mode (thank @auliamuslim)
+- New features crossdomain check
+- New features resources generator
+
+16.06.01
+- Add new feature unicode converter
+- Fix refresh pulldown (thank @farzanfx)
+- Fix download (thank @Callehost)
+- Fix security issue
+- Add avoid crawler bot, using robots.txt and noindex nofollow
+
+16.05.23
+- Add new feature Custom JS (AngularJS directive)
+- Add new feature RSS To JSON Convert
+- Add domain whitelist (Dashboard)
+- Add download button project and output (Dashboard)
+- Fix delete button (Dashboard)
+- Add column type youtube (Table)
+- Add column type webview (Table)
+- Add column type google map (Table)
+- Fix column type video (Table)
+- Fix column type audio (Table)
+- Add preview of column type (Table)
+- Add button lock for protect pages (Page)
+- Change Logo and background browser to KCFinder(Page)
+- Add hero background (Page)
+- Fix css output (youtube, audio, video output)
+- Fix main CSS/JS
+
+16.05.10
+- Add new Color
+- Add column type audio
+- Add column type social share
+- Add fetch per scroll option
+- Add new Template table (rest-api1, rest-api2, woocommerce, job_listing) 
+- Add page info (example code and variable)
+- Improve PHP+MySQL
+- Improve WordPress Private Plugin
+- Auto Register support system
+- Add new Feature Custom CSS
+- Update Ionic framework 1.3
+- Fix Description on Dashboard Tab (tinymce issue)
+
+16.05.02
+- Improve Page, TinyMCE Ionic Button Plugin
+- Emulator Add Button Stroge Clear and New Windows
+- Page type Webview
+
+16.04.27
+- Auth Basic (Default username/password: regel)
+- Fix Scrolling issue
+- Fix PHP+MySQL issue non-utf8
+- Page Type (Iframe)
+- Table JSON Costum Variable 
+
+16.04.20
+- Add Extra Tool-PHP+MySQL Generator for REST-API (for Other CMS/PHPMyAdmin as backend)
+- Improve Extra Tool-WordPress Plugin Generator (Icon Picker, Wp Media/Image Upload)
+- Add Change Emulator Button
+- Add Single Template (Heroes Style) in Tables Tab
+- Fix Permission Issue
+- Fix Extra Tool-JSON 

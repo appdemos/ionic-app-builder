@@ -1,0 +1,19 @@
+{
+    "page": [
+        {
+            "title": "user",
+            "prefix": "form_user",
+            "for": "forms",
+            "last_edit_by": "forms",
+            "parent": "",
+            "menutype": "side_menus-custom",
+            "menu": "",
+            "priority": "warning",
+            "class": "has-header",
+            "bg_image": true,
+            "content": "",
+            "img_bg": "data\/images\/background\/bg13.jpg",
+            "css": ""
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "tables": {
+        "drupal_node": {
+            "required": "<h4>Required<\/h4><blockquote><p>Requires: Services (enabled), Chaos tools (enabled), Libraries (enabled), System (enabled)<\/p><p><a class=\"btn btn-sm btn-danger\" target=\"_blank\" href=\"https:\/\/www.drupal.org\/project\/services\">Services<\/a>&nbsp<a class=\"btn btn-sm btn-danger\" href=\"https:\/\/www.drupal.org\/project\/cors\">CORS<\/a><\/p><\/blockquote>",
+            "parent": "node",
+            "title": "node",
+            "template": "none",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "dark",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "http:\/\/drupal.co.id\/rest-api\/node.json",
+            "db_url_single": "http:\/\/drupal.co.id\/rest-api\/node\/",
+            "cols": [
+                {
+                    "label": "Node ID",
+                    "title": "nid",
+                    "type": "id",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Title",
+                    "title": "title",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "body.und[0].value",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "body.value",
+                    "type": "to_trusted",
+                    "json": "false"
+                },
+                {
+                    "label": "Type : <strong>[txt]<\/strong>",
+                    "title": "type",
+                    "type": "text",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Social Share",
+                    "title": "path",
+                    "type": "share_link",
+                    "json": "false"
+                },
+                {
+                    "label": "Link",
+                    "title": "path",
+                    "type": "link",
+                    "json": "false"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "node"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "forms": {
+        "user": {
+            "select": "",
+            "max": "9",
+            "method": "post",
+            "table": "user",
+            "title": "user",
+            "action": "#",
+            "msg_ok": "Your request has been sent.",
+            "layout": "list",
+            "style": "floating",
+            "msg_error": "Please! complete the form provided.",
+            "input": [
+                {
+                    "label": "fullname",
+                    "name": "fullname",
+                    "type": "text",
+                    "placeholder": "fullname"
+                },
+                {
+                    "label": "uname",
+                    "name": "uname",
+                    "type": "text",
+                    "placeholder": "uname"
+                },
+                {
+                    "label": "pwd",
+                    "name": "pwd",
+                    "type": "text",
+                    "placeholder": "pwd"
+                },
+                {
+                    "label": "address",
+                    "name": "address",
+                    "type": "text",
+                    "placeholder": "address"
+                },
+                {
+                    "label": "type_ic",
+                    "name": "type_ic",
+                    "type": "text",
+                    "placeholder": "type_ic"
+                },
+                {
+                    "label": "no_ic",
+                    "name": "no_ic",
+                    "type": "text",
+                    "placeholder": "no_ic"
+                },
+                {
+                    "label": "phone",
+                    "name": "phone",
+                    "type": "text",
+                    "placeholder": "phone"
+                },
+                {
+                    "label": "email",
+                    "name": "email",
+                    "type": "text",
+                    "placeholder": "email"
+                },
+                {
+                    "label": "Submit",
+                    "name": "submit",
+                    "type": "button",
+                    "placeholder": "Submit"
+                }
+            ],
+            "prefix": "user"
+        }
+    }
+}

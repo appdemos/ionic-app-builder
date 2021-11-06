@@ -1,0 +1,73 @@
+{
+    "page": [
+        {
+            "js": "$ionicConfig.backButton.text(\"\");",
+            "img_bg": "",
+            "img_hero": "data\/images\/background\/bg0.jpg",
+            "cache": "false",
+            "title": "{{ post.title.rendered }}",
+            "prefix": "post_singles",
+            "for": "table-item",
+            "last_edit_by": "table (post)",
+            "parent": "posts",
+            "content": "",
+            "priority": "low",
+            "menu": "false",
+            "menutype": "sub-side_menus",
+            "query": [
+                "id"
+            ],
+            "button_up": "bottom-right",
+            "variables": [
+                {
+                    "value": "<p>{{post.id}}<\/p>",
+                    "label": "id"
+                },
+                {
+                    "value": "<p>{{post.title.rendered}}<\/p>",
+                    "label": "title.rendered"
+                },
+                {
+                    "value": "<p>{{post.x_featured_media}}<\/p>",
+                    "label": "x_featured_media"
+                },
+                {
+                    "value": "<p>{{post.x_date}}<\/p>",
+                    "label": "x_date"
+                },
+                {
+                    "value": "<p>{{post.x_author}}<\/p>",
+                    "label": "x_author"
+                },
+                {
+                    "value": "<p>{{post.x_featured_media_original}}<\/p>",
+                    "label": "x_featured_media_original"
+                },
+                {
+                    "value": "<p>{{post.excerpt.rendered}}<\/p>",
+                    "label": "excerpt.rendered"
+                },
+                {
+                    "value": "<p>{{post.content.rendered}}<\/p>",
+                    "label": "content.rendered"
+                },
+                {
+                    "value": "<p>{{post.x_tags}}<\/p>",
+                    "label": "x_tags"
+                },
+                {
+                    "value": "<p>{{post.x_categories}}<\/p>",
+                    "label": "x_categories"
+                },
+                {
+                    "value": "<p>{{post.link}}<\/p>",
+                    "label": "link"
+                },
+                {
+                    "value": "<p>{{post.link}}<\/p>",
+                    "label": "link"
+                }
+            ]
+        }
+    ]
+}

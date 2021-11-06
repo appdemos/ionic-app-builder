@@ -1,0 +1,125 @@
+{
+    "tables": {
+        "wp-woo_products": {
+            "required": "<h4>Required<\/h4><blockquote>You must enable WOO API and using SSL, follow these steps<br\/><ol>\r\n<li>Go to your WP, Create new user with level a customer<\/li>\r\n<li>Go to WooCommerce -> Setting -> API<\/li>\r\n<li>Checked  Enable the REST API then click Save Button<\/li>\r\n<li>Then Keys\/Apps Tab, click Add Key <\/li>\r\n<li>Fill the form, User select customer and Permissions is read<\/li>\r\n<li>You will get Key and Consumer Secret, insert to section Authorization bellow<\/li>\r\n<\/ol><\/blockquote>",
+            "parent": "products",
+            "title": "product",
+            "template": "gallery",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "https:\/\/wp.org\/wp-json\/wc\/v1\/products\/?category=270&per_page=100",
+            "db_url_single": "https:\/\/wp.org\/wp-json\/wc\/v1\/products\/",
+            "db_url_dinamic": "on",
+            "cols": [
+                {
+                    "label": "id",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "images",
+                    "title": "images[0].src",
+                    "type": "images",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "description",
+                    "title": "description",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "short_description",
+                    "title": "short_description",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "price_html",
+                    "title": "price_html",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt]",
+                    "title": "price",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "average_rating",
+                    "title": "average_rating",
+                    "type": "rating",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Social Share",
+                    "title": "permalink",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Buy Now",
+                    "title": "permalink",
+                    "type": "webview",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "auth": {
+                "type": "basic",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "product"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Ionic Icons</name>
+	<license>Commercial</license>
+	<version>1.16.03.28</version>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Ionic Icons is a TinyMCE plugin that allow create icons that use ionic framework.</description>
+	<tags>plugin, tinymce, ionic, ionicons, icon</tags>
+	<preferences>
+		<preference name="id" value="gui_ion_icons"></preference>
+		<preference name="framework" value="ionic"></preference>
+		<preference name="path" value="add-ons/gui_ion_icons/plugin.min.js"></preference>
+		<preference name="button" value="gui_ion_icons"></preference>
+        <preference name="gui_ion_icons" value="{menu:true,toolbar_text:true,css:{exist:true,external:gui_ion_icons_url}}"></preference>
+	</preferences>
+</widget>

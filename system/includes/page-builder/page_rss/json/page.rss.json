@@ -1,0 +1,61 @@
+{
+    "page": [
+        {
+            "builder_link": "",
+            "prefix": "blog",
+            "img_bg": "data\/images\/background\/bg3.jpg",
+            "parent": "side_menus",
+            "lock": false,
+            "menutype": "side_menus",
+            "title": "blog",
+            "query_value": "",
+            "menu": "rss",
+            "js": "\/\/debug: all data\r\n\/\/console.log(data_blogs);\r\n$ionicConfig.backButton.text(\"\");\r\n",
+            "content": "\r\n\t\t\t<!-- code refresh -->\r\n\t\t\t<ion-refresher pulling-text=\"Pull to refresh...\"  on-refresh=\"doRefresh()\"><\/ion-refresher>\r\n\t\t\t<!-- .\/code refresh -->\r\n\t\t\t\r\n\r\n\t\t\t<!-- code search -->\r\n\t\t\t<ion-list class=\"card list\" >\r\n\t\t\t\t<div class=\"item item-input\">\r\n\t\t\t\t\t<i class=\"icon ion-search placeholder-icon\"><\/i>\r\n\t\t\t\t\t<input type=\"search\" ng-model=\"filter_blogs\" placeholder=\"Search\" aria-label=\"filter blogs\" \/>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/ion-list>\r\n\t\t\t<!-- .\/code search -->\r\n\r\n\r\n\t\t\t<!-- code listing -->\r\n\t\t\t<div class=\"card list light-bg animate-none\">\r\n\t\t\t\t<a class=\"item item-icon-left ink-colorful item-icon-right \"  ng-repeat=\"item in blogs | filter:filter_blogs as results\" ng-init=\"$last ? fireEvent() : null\" ng-href=\"#\/rss\/blog_singles\/{{item.id}}\" >\r\n\t\t\t\t\t<i class=\"icon colorful ion-social-buffer\"><\/i>\r\n\t\t\t\t\t<span ng-bind-html=\"item.title | to_trusted\"><\/span>\r\n\t\t\t\t\t\t<span class=\"item-note\" >\r\n\t\t\t\t\t\tAuthor : {{item.author.name}}\r\n\t\t\t\t\t\t<\/span>\r\n\t\t\t\t\t<i class=\"icon ion-arrow-right-c\"><\/i>\r\n\t\t\t\t<\/a>\r\n\t\t\t<\/div>\r\n\t\t\t<!-- .\/code listing -->\r\n\r\n\r\n\t\t\t<!-- code infinite scroll -->\r\n\t\t\t<ion-infinite-scroll ng-if=\"!noMoreItemsAvailable\" on-infinite=\"onInfinite()\" distance=\"5px\" ng-if=\"hasMoreData\"><\/ion-infinite-scroll>\r\n\t\t\t<!-- .\/code infinite scroll -->\r\n\r\n\r\n\t\t\t<!-- code search result not found -->\r\n\t\t\t<ion-list ng-if=\"results.length == 0\" class=\"list card\">\r\n\t\t\t\t<div class=\"item\"  >\r\n\t\t\t\t\t<p>No results found...!<\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/ion-list>\r\n\t\t\t<!-- .\/code search result not found -->\r\n\r\n\r\n\r\n",
+            "class": "",
+            "attr": "",
+            "button_up": "none",
+            "query": null,
+            "for": "table-list",
+            "last_edit_by": "table (blog)",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.title}}<\/li><\/ul>",
+                    "label": "title"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.content}}<\/li><\/ul>",
+                    "label": "content"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.author.name}}<\/li><\/ul>",
+                    "label": "author.name"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_published}}<\/li><\/ul>",
+                    "label": "x_published"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_updated}}<\/li><\/ul>",
+                    "label": "x_updated"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_link.attributes.href}}<\/li><\/ul>",
+                    "label": "x_link.attributes.href"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_link.attributes.href}}<\/li><\/ul>",
+                    "label": "x_link.attributes.href"
+                }
+            ],
+            "img_hero": null,
+            "priority": "low",
+            "db_url_dinamic": false
+        }
+    ]
+}

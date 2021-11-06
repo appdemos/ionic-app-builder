@@ -1,0 +1,14 @@
+* Go to Extra Menus -» (IMAB) Custom JS:
+
+.controller("ShareCtrl", function($scope, $cordovaSocialSharing){
+	$scope.shareAnywhere = function(){
+		$cordovaSocialSharing.share("subject", "message", "http://ihsana.com/ima_builder/rev17.06.05/templates/default/img/logo.png", "https://play.google.com/store/apps/details?id=com.imabuilder.anaskinet.katakatamutiara");
+	}
+})
+
+
+* Go to (IMAB) Pages, add this button:
+<button class="button button-icon button-clear ion-android-share-alt" ng-controller="ShareCtrl" ng-click="shareAnywhere()"></button> 
+
+* Go to Extra Menus -» (IMAB) Custom Cordova Plugin, add "cordova-plugin-x-socialsharing" plugin
+

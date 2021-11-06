@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Ionic Buttons</name>
+	<version>1.16.03.28</version>
+	<license>Commercial</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Ionic Buttons is a TinyMCE plugin that allow create and edit buttons Component that use ionic framework, either using classic or inline editor.</description>
+	<tags>plugin, tinymce, ionic, button</tags>
+	<preferences>
+		<preference name="id" value="gui_ion_buttons"></preference>
+		<preference name="framework" value="ionic"></preference>
+		<preference name="path" value="add-ons/gui_ion_buttons/plugin.min.js"></preference>
+		<preference name="button" value="gui_ion_buttons"></preference>
+        <preference name="gui_ion_buttons" value="{toolbar_text:true,css:{exist:true,external:gui_ion_buttons_url}}"></preference>
+	</preferences>
+</widget>

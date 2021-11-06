@@ -1,0 +1,116 @@
+{
+    "tables": {
+        "wp-json-api": {
+            "parent": "posts",
+            "required": "<h4>Required<\/h4><blockquote class=\"blockquote blockquote-danger\">Plugin required for your WordPress<br\/><a class=\"btn btn-xs btn-danger\" target=\"_blank\" href=\"https:\/\/wordpress.org\/plugins\/json-api\/\">WP JSON API<\/a> <br\/>and add this code to .htaccess <br\/> <pre>Header set Access-Control-Allow-Origin \"*\"<\/pre><\/blockquote>",
+            "title": "post",
+            "template": "thumbnail-3",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "assertive-900",
+            "db_type": "online",
+            "db_var": ".posts",
+            "db_var_single": "",
+            "db_url": "http:\/\/wordpress.co.id\/api\/get_posts\/",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Author Name",
+                    "title": "author.name",
+                    "type": "heading-2",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Features",
+                    "title": "thumbnail_images.large.url",
+                    "type": "images",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "thumbnail",
+                    "title": "thumbnail",
+                    "type": "images",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Title",
+                    "title": "title",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Excerpt",
+                    "title": "excerpt",
+                    "type": "to_trusted",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "content",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Share This",
+                    "title": "url",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "motions": "none",
+            "bookmarks": "bookmark",
+            "column-for-price": "none",
+            "currency-symbol": "$",
+            "languages": {
+                "retrieval_error_title": "No Network connection",
+                "retrieval_error_content": "Internet connection is required to access the application. Please enable mobile network or Wifi in Settings",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                },
+                "youtube": {
+                    "api_key": ""
+                }
+            },
+            "auth": {
+                "type": "none",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "post"
+        }
+    }
+}

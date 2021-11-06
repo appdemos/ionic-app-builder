@@ -1,0 +1,1 @@
+.gui_ion_visualblocks .item,.gui_ion_visualblocks .list{border:1px dashed #bbb;padding-top:20px}.gui_ion_visualblocks .item:before,.gui_ion_visualblocks .list:before{font-size:9px;position:absolute;top:2px;left:2px;color:#0A6919}.gui_ion_visualblocks .list:before{content:'list'}.gui_ion_visualblocks .item:before{content:'item'}

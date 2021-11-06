@@ -1,0 +1,19 @@
+.gui_ion_visualblocks .list,
+.gui_ion_visualblocks .item {
+  border: 1px dashed #bbb;
+  padding-top: 20px;
+}
+.gui_ion_visualblocks .list:before,
+.gui_ion_visualblocks .item:before {
+  font-size: 9px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: #0A6919;
+}
+.gui_ion_visualblocks .list:before {
+  content: 'list';
+}
+.gui_ion_visualblocks .item:before {
+  content: 'item';
+}

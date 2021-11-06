@@ -1,0 +1,82 @@
+{
+    "tables": {
+        "wp-com_categories": {
+            "parent": "categories",
+            "title": "categorie",
+            "template": "1-icon",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": ".categories",
+            "db_url": "https:\/\/public-api.wordpress.com\/rest\/v1.1\/sites\/ihsana.wordpress.com\/categories\/",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "ID",
+                    "type": "id",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "description",
+                    "title": "description",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt] posts",
+                    "title": "post_count",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "post",
+            "fetch_per_scroll": "1",
+            "icon": "ion-android-film",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "oauth": {
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "categorie"
+        }
+    }
+}

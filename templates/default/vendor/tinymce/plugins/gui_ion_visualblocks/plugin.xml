@@ -1,0 +1,18 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - Ionic Visualblocks</name>
+	<version>1.16.03.28</version>
+	<license>Free</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Galau UI - Ionic Visualblocks  is a TinyMCE plugin  for display grid Ionic</description>
+	<tags>plugin, tinymce, grid, view, block, Ionic</tags>
+	<preferences>
+		<preference name="id" value="gui_ion_visualblocks"></preference>
+		<preference name="framework" value="ionic"></preference>
+		<preference name="path" value="add-ons/gui_ion_visualblocks/plugin.min.js"></preference>
+		<preference name="button" value="gui_ion_visualblocks"></preference>
+        <preference name="menu" value="gui_ion_visualblocks"></preference>
+        <preference name="gui_ion_visualblocks" value="{default_state:true,toolbar_text:true,css:{exist:true,external:gui_ionic_url}}"></preference>
+	</preferences>
+</widget>

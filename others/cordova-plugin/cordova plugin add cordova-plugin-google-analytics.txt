@@ -1,0 +1,8 @@
+$rootScope.$on("$stateChangeSuccess",function(){
+	if(typeof analytics !== undefined) {
+		analytics.startTrackerWithId("UA-XXXXXXXXX-1");
+		analytics.trackView($state.current.name);
+	} else {
+		console.log("Google Analytics Unavailable");
+	}
+}); 

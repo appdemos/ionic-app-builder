@@ -1,0 +1,140 @@
+{
+    "tables": {
+        "wp-ima-woo_products": {
+            "parent": "products",
+            "title": "product",
+            "template": "thumbnail-2",
+            "template_single": "tabs",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "http:\/\/demo-wp.com\/wp-json\/ima_wc\/v2\/products\/?categories=-1&per_pages=100",
+            "db_url_single": "http:\/\/demo-wp.com\/wp-json\/ima_wc\/v2\/products\/",
+            "db_url_dinamic": "on",
+            "cols": [
+                {
+                    "label": "id",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "images",
+                    "title": "featured.thumbnail",
+                    "type": "images",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "featured large",
+                    "title": "featured.large",
+                    "type": "images",
+                    "json": "true"
+                },
+                {
+                    "label": "name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "image_slidebox",
+                    "title": "image_slidebox",
+                    "type": "slidebox",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "description",
+                    "title": "description",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "short_description",
+                    "title": "short_description",
+                    "type": "to_trusted",
+                    "json": "true"
+                },
+                {
+                    "label": "price_html",
+                    "title": "price_html",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt]",
+                    "title": "price",
+                    "type": "text",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "average_rating",
+                    "title": "average_rating",
+                    "type": "rating",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Social Share",
+                    "title": "permalink",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Buy Now",
+                    "title": "permalink",
+                    "type": "webview",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "bookmarks": "none",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "false"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                },
+                "youtube": {
+                    "api_key": ""
+                }
+            },
+            "auth": {
+                "type": "none",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "product"
+        }
+    }
+}

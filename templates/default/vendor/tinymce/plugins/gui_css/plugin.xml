@@ -1,0 +1,16 @@
+<?xml version="1.0"?> 
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>GUI - CSS</name>
+	<version>1.16.03.10</version>
+	<license>Free</license>
+	<author>Jasman</author>
+	<authorURL>http://ihsana.com/jasman.z</authorURL>
+	<description>Fix CSS for editor</description>
+	<tags>plugin, tinymce, css</tags>
+	<preferences>
+		<preference name="id" value="gui_css"></preference>
+		<preference name="framework" value="galau_ui"></preference>
+		<preference name="path" value="add-ons/gui_css/plugin.min.js"></preference>
+        <preference name="gui_css" value="[]"></preference>
+	</preferences>
+</widget>

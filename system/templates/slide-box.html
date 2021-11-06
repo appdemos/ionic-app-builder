@@ -1,0 +1,57 @@
+<html ng-app="slideBoxTest">
+<head>
+	<meta charset="utf-8">
+	<title>Slide Box</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="../../templates/default/vendor/ionic/ionic/css/ionic.min.css" rel="stylesheet"/>
+	<link href="../../templates/default/vendor/ionic/ionic-material/ionic.material.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="mceTmpl">
+	<ion-slide-box>
+			<ion-slide>
+			  <h3>Thank you for choosing the Ionic App Builder!</h3>
+			  <p>
+				We've worked super hard to make you happy.
+			  </p>
+			  <p>
+				{$appName}
+			  </p>
+			</ion-slide>
+				
+			<ion-slide>
+				<h3>Using Awesome</h3>
+				<div>
+					<h5>Just three steps:</h5>
+					<ol>
+					<li>Be awesome</li>
+					<li>Stay awesome</li>
+					<li>There is no step 3</li>
+					</ol>
+				</div>
+			</ion-slide>
+			<ion-slide>
+				<h3>Any questions?</h3>
+				<p>
+					Too bad!
+				</p>
+			</ion-slide>
+		</ion-slide-box>
+</div>
+
+	<script src="../../templates/default/vendor/ionic/ionic/js/ionic.bundle.js"></script>
+	<script>
+      angular.module('slideBoxTest', ['ionic'])
+      .controller('SlideCtrl', function($scope) {
+        $scope.next = function() {
+          console.log('NEXT');
+          $scope.$broadcast('slideBox.nextSlide');
+        };
+        $scope.slideChanged = function(index) {
+          console.log('Slide changed', index);
+        };
+      });
+   </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "page": [
+        {
+            "title": "Dashboard",
+            "prefix": "dashboard",
+            "for": "-",
+            "last_edit_by": "menu",
+            "priority": "high",
+            "parent": "",
+            "menutype": "side_menus-custom",
+            "menu": "",
+            "lock": false,
+            "class": "",
+            "bg_image": true,
+            "img_bg": "data\/images\/background\/bg1.jpg",
+            "content": "",
+            "title-tranparant": true,
+            "header-shrink": true,
+            "button_up": "none",
+            "css": "",
+            "img_hero": "",
+            "js": "",
+            "hide-navbar": false,
+            "remove-has-header": true,
+            "overflow-scroll": false,
+            "scroll-zooming": false,
+            "scroll": false,
+            "button_back": "none",
+            "content-top": false
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<div class="card" ng-repeat="comments in yourpageprefixs._embedded.replies">
+    <div ng-repeat="comment in comments">
+      <div class="item item-avatar item-text-wrap">
+        <img alt="" ng-src="{{comment.author_avatar_urls[96] | to_trusted}}" />
+        <h2 ng-bind-html="comment.author_name | to_trusted"></h2>  
+        <div ng-bind-html="comment.content.rendered | to_trusted"></div>
+        <span>Date: {{ comment.date | date }}</span>
+      </div>      
+  </div>
+</div>

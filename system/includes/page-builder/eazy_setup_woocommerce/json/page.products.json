@@ -1,0 +1,78 @@
+{
+    "page": [
+        {
+            "title": "Products",
+            "prefix": "products",
+            "parent": "tabs",
+            "menutype": "tabs",
+            "lock": false,
+            "menu": "",
+            "for": "table-list",
+            "priority": "low",
+            "last_edit_by": "table (product)",
+            "content": "",
+            "class": "",
+            "attr": "",
+            "button_up": "none",
+            "img_bg": null,
+            "query": [
+                "categories"
+            ],
+            "query_value": "-1",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.featured.thumbnail}}<\/li><\/ul>",
+                    "label": "featured.thumbnail"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.featured.large}}<\/li><\/ul>",
+                    "label": "featured.large"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.name}}<\/li><\/ul>",
+                    "label": "name"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.image_slidebox}}<\/li><\/ul>",
+                    "label": "image_slidebox"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.description}}<\/li><\/ul>",
+                    "label": "description"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.short_description}}<\/li><\/ul>",
+                    "label": "short_description"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.price_html}}<\/li><\/ul>",
+                    "label": "price_html"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.price}}<\/li><\/ul>",
+                    "label": "price"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.average_rating}}<\/li><\/ul>",
+                    "label": "average_rating"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.permalink}}<\/li><\/ul>",
+                    "label": "permalink"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.permalink}}<\/li><\/ul>",
+                    "label": "permalink"
+                }
+            ],
+            "img_hero": null,
+            "js": "\/\/debug: all data\r\n\/\/console.log(data_products);\r\n$ionicConfig.backButton.text(\"\");\r\n",
+            "db_url_dinamic": "on"
+        }
+    ]
+}

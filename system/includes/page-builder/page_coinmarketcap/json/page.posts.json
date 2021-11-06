@@ -1,0 +1,82 @@
+{
+    "page": [
+        {
+            "title": "Articles",
+            "prefix": "posts",
+            "parent": "side_menus",
+            "menutype": "side_menus",
+            "lock": false,
+            "menu": "my_wp",
+            "for": "table-list",
+            "priority": "high",
+            "last_edit_by": "table (post)",
+            "content": "",
+            "class": "",
+            "attr": "",
+            "button_up": "bottom-right",
+            "img_bg": "",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.title.rendered}}<\/li><\/ul>",
+                    "label": "title.rendered"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_featured_media}}<\/li><\/ul>",
+                    "label": "x_featured_media"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_date}}<\/li><\/ul>",
+                    "label": "x_date"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_author}}<\/li><\/ul>",
+                    "label": "x_author"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_featured_media_original}}<\/li><\/ul>",
+                    "label": "x_featured_media_original"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.excerpt.rendered}}<\/li><\/ul>",
+                    "label": "excerpt.rendered"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.content.rendered}}<\/li><\/ul>",
+                    "label": "content.rendered"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_tags}}<\/li><\/ul>",
+                    "label": "x_tags"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.x_categories}}<\/li><\/ul>",
+                    "label": "x_categories"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.link}}<\/li><\/ul>",
+                    "label": "link"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.link}}<\/li><\/ul>",
+                    "label": "link"
+                }
+            ],
+            "img_hero": "",
+            "js": "\/\/debug: all data\r\n\/\/console.log(data_posts);\r\n\r\n$ionicConfig.backButton.text(\"\");\r\nif(!$scope.paging){\r\n\t$scope.paging=1;\r\n}\r\n\r\n$scope.updatePaging=function(){\r\n\t$scope.paging++;\r\n\t$scope.fetchURL = \"http:\/\/wp.org\/wp-json\/wp\/v2\/posts?categories=1&per_page=3&page=\"+$scope.paging;\r\n\t$scope.fetchURLp = \"http:\/\/wp.org\/wp-json\/wp\/v2\/posts?categories=1&per_page=3&page=\"+$scope.paging+\"&callback=JSON_CALLBACK\";\r\n\t$scope.hashURL = md5.createHash( $scope.fetchURL.replace(targetQuery,raplaceWithQuery));\r\n    $ionicLoading.show();\r\n  $scope.doRefresh();\r\n}",
+            "hide-navbar": false,
+            "title-tranparant": false,
+            "remove-has-header": false,
+            "header-shrink": false,
+            "overflow-scroll": false,
+            "scroll-zooming": false,
+            "scroll": false,
+            "button_back": "none",
+            "content-top": false
+        }
+    ]
+}

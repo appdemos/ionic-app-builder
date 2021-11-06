@@ -1,0 +1,53 @@
+{
+    "page": [
+        {
+            "title": "Categories",
+            "prefix": "categories",
+            "parent": "side_menus",
+            "menutype": "side_menus",
+            "lock": false,
+            "menu": "",
+            "for": "table-list",
+            "priority": "low",
+            "last_edit_by": "table (categorie)",
+            "content": "",
+            "class": "",
+            "attr": "",
+            "button_up": "none",
+            "img_bg": "",
+            "query": null,
+            "query_value": "",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.name}}<\/li><\/ul>",
+                    "label": "name"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.description}}<\/li><\/ul>",
+                    "label": "description"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.count}}<\/li><\/ul>",
+                    "label": "count"
+                }
+            ],
+            "img_hero": "",
+            "js": "",
+            "db_url_dinamic": false,
+            "hide-navbar": false,
+            "title-tranparant": false,
+            "remove-has-header": false,
+            "header-shrink": false,
+            "overflow-scroll": false,
+            "scroll-zooming": false,
+            "scroll": false,
+            "button_back": "none",
+            "content-top": false
+        }
+    ]
+}

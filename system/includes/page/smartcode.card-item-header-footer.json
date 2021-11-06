@@ -1,0 +1,4 @@
+{
+    "name": "item-header-footer",
+    "code": "&lt;div class=&quot;card&quot;&gt;  &lt;div class=&quot;item item-divider&quot;&gt;    I'm a Header in a Card!  &lt;/div&gt;  &lt;div class=&quot;item item-text-wrap&quot;&gt;    This is a basic Card with some text.  &lt;/div&gt;  &lt;div class=&quot;item item-divider&quot;&gt;    I'm a Footer in a Card!  &lt;/div&gt;&lt;/div&gt;"
+}

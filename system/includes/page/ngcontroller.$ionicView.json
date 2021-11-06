@@ -1,0 +1,4 @@
+{
+    "name": "$ionicView",
+    "code": "$scope.$on('$ionicView.loaded', function (){\r\n \talert(\"$ionicView.loaded\");\r\n});\r\n\r\n$scope.$on('$ionicView.enter', function (){\r\n \talert(\"$ionicView.enter\");\r\n});\r\n\r\n$scope.$on('$ionicView.leave', function (){\r\n \talert(\"$ionicView.leave\");\r\n});\r\n\r\n$scope.$on('$ionicView.beforeEnter', function (){\r\n \talert(\"$ionicView.beforeEnter\");\r\n});\r\n\r\n$scope.$on('$ionicView.beforeLeave', function (){\r\n \talert(\"$ionicView.beforeLeave\");\r\n});\r\n\r\n$scope.$on('$ionicView.afterEnter', function (){\r\n \talert(\"$ionicView.afterEnter\");\r\n});\r\n\r\n$scope.$on('$ionicView.afterLeave', function (){\r\n \talert(\"$ionicView.afterLeave\");\r\n});\r\n\r\n$scope.$on('$ionicView.unloaded', function (){\r\n \talert(\"$ionicView.unloaded\");\r\n});"
+}

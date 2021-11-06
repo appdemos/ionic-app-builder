@@ -1,0 +1,114 @@
+{
+    "tables": {
+        "user": {
+            "parent": "",
+            "title": "user",
+            "template": "none",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "offline",
+            "db_var": "",
+            "db_var_single": "",
+            "db_url": "",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Full Name",
+                    "title": "fullname",
+                    "type": "heading-1",
+                    "json": "true"
+                },
+                {
+                    "label": "User Name",
+                    "title": "uname",
+                    "type": "as_username",
+                    "json": "false"
+                },
+                {
+                    "label": "Password",
+                    "title": "pwd",
+                    "type": "as_password",
+                    "json": "false"
+                },
+                {
+                    "label": "Address",
+                    "title": "address",
+                    "type": "to_trusted",
+                    "json": "false"
+                },
+                {
+                    "label": "Type Identity Card",
+                    "title": "type_ic",
+                    "type": "text",
+                    "json": "false"
+                },
+                {
+                    "label": "No. Identity Card",
+                    "title": "no_ic",
+                    "type": "text",
+                    "json": "false"
+                },
+                {
+                    "label": "Phone Number",
+                    "title": "phone",
+                    "type": "text",
+                    "json": "false"
+                },
+                {
+                    "label": "Email Address",
+                    "title": "email",
+                    "type": "text",
+                    "json": "false"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "motions": "none",
+            "bookmarks": "none",
+            "column-for-price": "none",
+            "currency-symbol": "$",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "false"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                },
+                "youtube": {
+                    "api_key": ""
+                }
+            },
+            "auth": {
+                "type": "none",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "user"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.run(function($ionicPlatform,$interval){
+	$ionicPlatform.ready(function(){ 
+	   $interval(function(){
+          	if (typeof AdMob !== "undefined"){
+				AdMob.prepareInterstitial({
+					adId: "ca-app-pub-3940256099942544/1033173712",
+					autoShow: true,
+					isTesting: true,// TODO: remove this line when release
+				});
+			}
+         },300000); // delay 3m
+	});
+})

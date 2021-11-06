@@ -1,0 +1,18 @@
+{
+    "page": [
+        {
+            "title": "About Us",
+            "prefix": "about_us",
+            "for": "-",
+            "last_edit_by": "menu",
+            "priority": "low",
+            "parent": "",
+            "menutype": "tabs-custom",
+            "menu": "",
+            "lock": false,
+            "class": "",
+            "bg_image": true,
+            "content": ""
+        }
+    ]
+}

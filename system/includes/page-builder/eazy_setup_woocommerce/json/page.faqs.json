@@ -1,0 +1,16 @@
+{
+    "page": [
+        {
+            "title": "Faqs",
+            "prefix": "faqs",
+            "parent": "",
+            "menutype": "tabs-custom",
+            "lock": false,
+            "menu": "app_loundry",
+            "for": "-",
+            "priority": "low",
+            "last_edit_by": "menu",
+            "content": ""
+        }
+    ]
+}

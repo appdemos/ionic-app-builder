@@ -1,0 +1,19 @@
+{
+    "page": [
+        {
+            "cache": "false",
+            "title": "Bookmarks",
+            "prefix": "post_bookmark",
+            "for": "table-bookmarks",
+            "last_edit_by": "table (post)",
+            "parent": "side_menus",
+            "content": "",
+            "priority": "low",
+            "menu": "",
+            "menutype": "side_menus",
+            "button_up": "none",
+            "variables": "",
+            "css": ".post_bookmark{margin-top: 50%;}\r\n.post_bookmark .icon:before{font-size:72px;font-weight: 600;}\r\n"
+        }
+    ]
+}

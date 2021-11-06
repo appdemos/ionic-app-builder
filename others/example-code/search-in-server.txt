@@ -1,0 +1,19 @@
+CODE CUSTOM CONTROLLER:
+
+var UriListing = "http://wp.org/wp-json/wp/v2/posts/";    
+$scope.updateListing=function(keyword){
+$scope.fetchURL = UriListing + "?search="+keyword;
+       $scope.fetchURLp = UriListing + "?search="+keyword+"&callback=JSON_CALLBACK";
+       $scope.hashURL = md5.createHash($scope.fetchURL.replace(targetQuery,raplaceWithQuery));
+$ionicLoading.show();
+$scope.doRefresh();
+}
+
+CODE HTML:
+
+  <div class="item item-input-inset">
+    <label class="item-input-wrapper">
+      <input type="text" placeholder="Keyword" ng-model="keyword">
+    </label>
+    <button class="button button-small" ng-click="updateListing(keyword)">Search</button>
+  </div>

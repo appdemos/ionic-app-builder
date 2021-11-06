@@ -1,0 +1,90 @@
+{
+    "tables": {
+        "wp-woo-categories": {
+            "required": "<h4>Required<\/h4><blockquote class=\"blockquote blockquote-danger\">You must enable WOO API and using SSL, follow these steps<br\/><ol>\r\n<li>Go to your WP, Create new user with level a customer<\/li>\r\n<li>Go to WooCommerce -> Setting -> API<\/li>\r\n<li>Checked  Enable the REST API then click Save Button<\/li>\r\n<li>Then Keys\/Apps Tab, click Add Key <\/li>\r\n<li>Fill the form, User select customer and Permissions is read<\/li>\r\n<li>You will get Key and Consumer Secret, insert to section Authorization bellow<\/li>\r\n<\/ol><\/blockquote>",
+            "parent": "categories",
+            "title": "categorie",
+            "template": "avatar",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "https:\/\/wp.org\/wp-json\/wc\/v1\/products\/categories\/?per_page=100",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "id",
+                    "title": "id",
+                    "type": "id",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt] items",
+                    "title": "count",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt]",
+                    "title": "description",
+                    "type": "text",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "image",
+                    "title": "image.src",
+                    "type": "images",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "products",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "auth": {
+                "type": "basic",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "categorie"
+        }
+    }
+}

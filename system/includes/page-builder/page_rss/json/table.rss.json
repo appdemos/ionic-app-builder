@@ -1,0 +1,117 @@
+{
+    "tables": {
+        "rss": {
+            "parent": "",
+            "title": "rss",
+            "template": "2-icon",
+            "template_single": "tabs",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_var_single": "",
+            "db_url": "http:\/\/ihsana.net\/myrss\/rss2json.php?json=items",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Title",
+                    "title": "title",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "content",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Author : [txt]",
+                    "title": "author.name",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Published : [txt]",
+                    "title": "x_published",
+                    "type": "text",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Updated : [txt]",
+                    "title": "x_updated",
+                    "type": "text",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Social Share",
+                    "title": "x_link.attributes.href",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Link",
+                    "title": "x_link.attributes.href",
+                    "type": "link",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "motions": "none",
+            "bookmarks": "none",
+            "column-for-price": "none",
+            "currency-symbol": "$",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                },
+                "youtube": {
+                    "api_key": ""
+                }
+            },
+            "auth": {
+                "type": "none",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "rss"
+        }
+    }
+}

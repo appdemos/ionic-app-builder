@@ -1,0 +1,48 @@
+{
+    "page": [
+        {
+            "title": "Authors",
+            "prefix": "users",
+            "parent": "side_menus",
+            "menutype": "side_menus",
+            "lock": false,
+            "menu": "",
+            "for": "table-list",
+            "priority": "low",
+            "last_edit_by": "table (user)",
+            "content": "",
+            "class": "",
+            "attr": "",
+            "button_up": "none",
+            "img_bg": null,
+            "query": null,
+            "query_value": "",
+            "cache": "false",
+            "variables": [
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.id}}<\/li><\/ul>",
+                    "label": "id"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.name}}<\/li><\/ul>",
+                    "label": "name"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.url}}<\/li><\/ul>",
+                    "label": "url"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.description}}<\/li><\/ul>",
+                    "label": "description"
+                },
+                {
+                    "value": "<ul ng-repeat=\"item in buttons\"><li>{{item.avatar_urls[96]}}<\/li><\/ul>",
+                    "label": "avatar_urls[96]"
+                }
+            ],
+            "img_hero": null,
+            "js": "",
+            "db_url_dinamic": false
+        }
+    ]
+}

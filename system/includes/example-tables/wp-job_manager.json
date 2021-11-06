@@ -1,0 +1,245 @@
+{
+    "tables": {
+        "wp-job_manager": {
+            "required": "<h4>Required<\/h4><blockquote>You must install the Job Manager plugin and REST-API Enabler for activate REST-API Job Manager.<\/blockquote>",
+            "parent": "jobs",
+            "title": "jobs",
+            "template": "thumbnail",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "http:\/\/demo.ihsana.net\/wp-json\/wp\/v2\/jobs?per_page=100",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Title",
+                    "title": "title.rendered",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<span>Expired: [txt]<\/span>",
+                    "title": "x_metadata._job_expires",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Featured",
+                    "title": "x_featured_media",
+                    "type": "images",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "<p>[txt]<\/p>",
+                    "title": "x_metadata._company_tagline",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Excerpt",
+                    "title": "excerpt.rendered",
+                    "type": "to_trusted",
+                    "json": "true"
+                },
+                {
+                    "label": "Content",
+                    "title": "content.rendered",
+                    "type": "to_trusted",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Tags : ",
+                    "title": "x_tags",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Categories : ",
+                    "title": "x_categories",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Date : ",
+                    "title": "x_date",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Author : ",
+                    "title": "x_author",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Filled : ",
+                    "title": "x_metadata._filled",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Job Location : ",
+                    "title": "x_metadata._job_location",
+                    "type": "to_trusted",
+                    "page_list": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Application : ",
+                    "title": "x_metadata._application",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Company: [txt]",
+                    "title": "x_metadata._company_name",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Address: [txt]",
+                    "title": "x_metadata.geolocation_formatted_address",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Website: [txt]",
+                    "title": "x_metadata._company_website",
+                    "type": "text",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Twitter : ",
+                    "title": "x_metadata._company_twitter",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Video : ",
+                    "title": "x_metadata._company_video",
+                    "type": "video",
+                    "json": "true"
+                },
+                {
+                    "label": "Thumbnail Id : ",
+                    "title": "x_metadata._thumbnail_id",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation Lat : ",
+                    "title": "x_metadata.geolocation_lat",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation Long : ",
+                    "title": "x_metadata.geolocation_long",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation State Short : ",
+                    "title": "x_metadata.geolocation_state_short",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation State Long : ",
+                    "title": "x_metadata.geolocation_state_long",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation Country Short : ",
+                    "title": "x_metadata.geolocation_country_short",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocation Country Long : ",
+                    "title": "x_metadata.geolocation_country_long",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Geolocated : ",
+                    "title": "x_metadata.geolocated",
+                    "type": "text",
+                    "json": "true"
+                },
+                {
+                    "label": "Apply",
+                    "title": "link",
+                    "type": "link",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Share Link",
+                    "title": "link",
+                    "type": "share_link",
+                    "page_detail": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "languages": {
+                "retrieval_error_title": "Network Error",
+                "retrieval_error_content": "An error occurred while collecting data.",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "auth": {
+                "type": "none",
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "jobs"
+        }
+    }
+}

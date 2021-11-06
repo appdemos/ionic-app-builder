@@ -1,0 +1,81 @@
+{
+    "tables": {
+        "wp-rest-api_categories": {
+            "required": "<h4>Required<\/h4><blockquote>Plugin required for your WordPress<br\/><a class=\"btn btn-xs btn-danger\" target=\"_blank\" href=\"https:\/\/wordpress.org\/plugins\/rest-api\/\">REST-API 2<\/a> <a class=\"btn btn-xs btn-danger\" target=\"_blank\" href=\"https:\/\/wordpress.org\/plugins\/rest-api-helper\/\">REST-API Helper<\/a><\/blockquote>",
+            "parent": "categories",
+            "title": "categorie",
+            "template": "2-icon",
+            "template_single": "none",
+            "itemtype": "item",
+            "itemcolor": "colorful",
+            "db_type": "online",
+            "db_var": "",
+            "db_url": "http:\/\/demo.ihsana.net\/wordpress\/wp-json\/wp\/v2\/categories?per_page=100",
+            "db_url_single": "",
+            "cols": [
+                {
+                    "label": "ID",
+                    "title": "id",
+                    "type": "id",
+                    "json": "true"
+                },
+                {
+                    "label": "Name",
+                    "title": "name",
+                    "type": "heading-1",
+                    "page_list": "true",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "Description",
+                    "title": "description",
+                    "type": "to_trusted",
+                    "page_list": "false",
+                    "page_detail": "true",
+                    "json": "true"
+                },
+                {
+                    "label": "[txt] pages",
+                    "title": "count",
+                    "type": "text",
+                    "page_list": "true",
+                    "json": "true"
+                }
+            ],
+            "relation_to": "none",
+            "fetch_per_scroll": "1",
+            "icon": "ion-social-buffer",
+            "localstorage": "localforage",
+            "languages": {
+                "retrieval_error_title": "No Network connection",
+                "retrieval_error_content": "Internet connection is required to access the application. Please enable mobile network or Wifi in Settings",
+                "no_result_found": "No results found...!",
+                "pull_for_refresh": "Pull to refresh...",
+                "search": "Search",
+                "error_messages": "true"
+            },
+            "option": {
+                "gmap": {
+                    "api_key": "",
+                    "center_map": "48.85693,2.3412"
+                }
+            },
+            "oauth": {
+                "consumer_key": "",
+                "consumer_secret": ""
+            },
+            "http_header": [
+                {
+                    "var": "",
+                    "val": ""
+                },
+                {
+                    "var": "",
+                    "val": ""
+                }
+            ],
+            "prefix": "categorie"
+        }
+    }
+}

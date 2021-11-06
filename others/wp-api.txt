@@ -1,0 +1,11 @@
+URL Single Without Permalink
+http://your_site/?_embed=1&rest_route=/wp/v2/posts/
+
+JSON API fix 404
+# API Rewrite rules
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule "^api/(.*)$" "/index.php?json=$1&%{QUERY_STRING}" [L]
+</IfModule>
+# END API Rewrite rules

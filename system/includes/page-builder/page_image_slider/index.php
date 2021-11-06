@@ -1,0 +1,1 @@
+Easy for creating slidebox for page dashboard

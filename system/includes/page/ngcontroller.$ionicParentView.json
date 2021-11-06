@@ -1,0 +1,4 @@
+{
+    "name": "$ionicParentView",
+    "code": "$scope.$on('$ionicParentView.loaded', function (){\r\n \talert(\"$ionicParentView.loaded\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.enter', function (){\r\n \talert(\"$ionicParentView.enter\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.leave', function (){\r\n \talert(\"$ionicParentView.leave\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.beforeEnter', function (){\r\n \talert(\"$ionicParentView.beforeEnter\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.beforeLeave', function (){\r\n \talert(\"$ionicParentView.beforeLeave\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.afterEnter', function (){\r\n \talert(\"$ionicParentView.afterEnter\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.afterLeave', function (){\r\n \talert(\"$ionicParentView.afterLeave\");\r\n});\r\n\r\n$scope.$on('$ionicParentView.unloaded', function (){\r\n \talert(\"$ionicParentView.unloaded\");\r\n});"
+}

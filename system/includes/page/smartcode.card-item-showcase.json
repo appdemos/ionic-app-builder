@@ -1,0 +1,4 @@
+{
+    "name": "card-showcase",
+    "code": "<div class=\"list card\">\r\n\r\n  <div class=\"item item-avatar\">\r\n    <img src=\"data\/images\/header\/logo.png\">\r\n    <h2>Marty McFly<\/h2>\r\n    <p>November 05, 1955<\/p>\r\n  <\/div>\r\n\r\n  <div class=\"item item-body\">\r\n    <img class=\"full-image\" src=\"data\/images\/images\/barner-2.jpg\">\r\n    <p>\r\n      This is a \"Facebook\" styled Card. The header is created from a Thumbnail List item,\r\n      the content is from a card-body consisting of an image and paragraph text. The footer\r\n      consists of tabs, icons aligned left, within the card-footer.\r\n    <\/p>\r\n    <p>\r\n      <a href=\"#\" class=\"subdued\">1 Like<\/a>\r\n      <a href=\"#\" class=\"subdued\">5 Comments<\/a>\r\n    <\/p>\r\n  <\/div>\r\n\r\n<\/div>"
+}
